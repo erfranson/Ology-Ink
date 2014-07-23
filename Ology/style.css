@@ -1,0 +1,641 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* reset style sheet*/
+
+/*header*/
+.header{
+	position: fixed;
+width: 100%;
+z-index: 10000;
+background-color: #ffffff;
+
+}
+
+/*logo*/
+
+.logo{
+	
+	border-left-width: 23px;
+	border-top-width: 27px;
+	height: 61px;
+	width:68px;
+	position: relative;
+	top: 6px;
+	left: 36px;
+	background: url(https://scontent-b.xx.fbcdn.net/hphotos-xap1/t1.0-9/21279_458628520880555_247123675_n.jpg) no-repeat;
+	display: inline-block;
+	background-size: 100%;
+	background-position:0px;
+
+}
+/*menu*/
+
+	 
+
+.log2{
+	color:black;
+	text-shadow: 1px 1px 10px #000;
+	font-family: Open Sans Condensed;
+	float:right;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+.nav{
+	list-style: none;
+border-bottom:solid 1px;
+	border-color: black;
+	border-style:;
+
+
+}
+.nav li{
+	display:inline;
+	font-size: 16px;
+	padding:0 35px;
+	position: relative;
+	left:111px;
+	top:-4px;
+	font-family: Open Sans Condensed;
+	word-wrap:break-word;
+	text-shadow: 1px 1px 10px #000;
+	cursor: pointer;
+	
+
+}
+
+
+
+i{
+	font-size: 15px;
+	color:black;
+}
+
+
+.social{
+	list-style: none;
+}
+.social li{
+	display:inline;
+	padding:1px;
+	font-family:Open Sans Condensed;
+	float:right;
+	position: relative;
+	top: -19px;
+	
+
+	
+	
+
+
+}
+/*pictures*/
+.fill{
+	padding-top: 100px;
+}
+
+.sunset{
+background: url(http://3.bp.blogspot.com/-qzdIXXTbmkA/TwUFxVfWbyI/AAAAAAAAOEE/E5FmseuO8rA/s640/2011+1229+NMB+3476+met+det+guy.jpg) no-repeat;
+	max-width: 100%;
+	height:250px;
+	width:459px;
+	padding-top:0px;
+	margin-left: 11%;
+	margin-top: 0px;
+	display: inline-block;
+	z-index: 0;
+	font-size: 30px;
+	color: #ffffff;
+	text-shadow: 1px 1px 10px #000;
+	font-family: Open Sans Condensed;
+	background-size: 100%;
+}
+.mask{
+background: url(http://racketnuke.wdfiles.com/local--resized-images/the-apocalyptic-portal/boy-cool-gas-mask-photography-Favim.com-202848.jpg/small.jpg) no-repeat;
+	max-width: 100%;
+	height:250px;
+	width:459px;
+	padding-top:0px;
+	margin-left: 3px;
+	margin-top: 0px;
+	display: inline-block;
+	z-index: 0;
+	font-size: 30px;
+	color: #ffffff;
+	text-shadow: 1px 1px 10px #000;
+	font-family: Open Sans Condensed;
+	background-size: 100%;
+}
+.spaceman{
+	background: url(http://www.illuminita.com/wp-content/uploads/2013/11/space-lols.jpg) no-repeat;
+	max-width: 100%;
+	height:250px;
+	width:459px;
+	padding-top:0px;
+	margin-left: 33%;
+	margin-top: 3px;
+	display: inline-block;
+	z-index: 0;
+	font-size: 30px;
+	color: #ffffff;
+	text-shadow: 1px 1px 10px #000;
+	font-family: Open Sans Condensed;
+	background-size: 100%;
+}
+
+
+.create{
+	
+	width: 100%;
+	height:500px;
+	/*background-size:cover;*/
+	background-repeat:no-repeat;
+	position: absolute;
+}
+
+
+
+
+.you{
+	font-family: Open Sans Condensed;
+	color:black;
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 1px 1px 10px #000;
+}
+.intro{
+	font-family: 'Indie Flower', cursive;
+	margin-left: 5%;
+	line-height: 20px;
+	color:#000000;
+	text-align: center;
+	font-size: 13px;
+	width: 90%;
+	position: relative;
+	line-height: 28px;
+	text-shadow: 1px 1px 10px #DDD62D;
+
+}
+.shoptime{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-align: center;
+	font-size: 30px;
+	height: 70px;
+	background-color:#FFFFFF;
+	padding-top: 27px;
+	color: #000000;
+
+
+
+}
+
+.talk{
+	font-size:30px;
+	text-shadow: 1px 1px 10px #000;
+	text-align:right;
+	color:#072846;
+	font-family:'Dancing Script', cursive;
+	padding-bottom: 20px;
+}
+
+.forsale {
+	background: url(http://cdn6.beekman1802.com/wp-content/uploads/2012/02/4031379-hand-painted-for-sale-sign-on-old-wood-planks.jpg) no-repeat;
+	max-width: 100%;
+	height:260px;
+	width:459px;
+	padding-top:0px;
+	margin-left: 0%;
+	margin-top: 0px;
+	display: inline-block;
+	z-index: 0;
+	font-size: 30px;
+	color: #ffffff;
+	text-shadow: 1px 1px 10px #000;
+	font-family: Open Sans Condensed;
+	background-size: 100%;
+	cursor: pointer;
+}
+.myth{
+	background: url(http://content.artofmanliness.com/uploads//2012/08/gods.jpg) no-repeat;
+	max-width: 100%;
+	height:260px;
+	width:459px;
+	padding-top:0px;
+	margin-left: 7px;
+	margin-top: 1%;
+	display: inline-block;
+	z-index: 0;
+	font-size: 30px;
+	color: #ffffff;
+	text-shadow: 1px 1px 10px #000;
+	font-family: Open Sans Condensed;
+	background-size: 115%;
+	background-position: -7px 0px;
+	cursor: pointer;
+
+}
+.zoo{
+background: url(http://data3.whicdn.com/images/4981849/large.jpg) no-repeat;
+	max-width: 100%;
+	height:260px;
+	width:459px;
+	padding-top:0px;
+	margin-left: 0%;
+	margin-top: 1%;
+	display: inline-block;
+	z-index: 0;
+	font-size: 30px;
+	color: #ffffff;
+	text-shadow: 1px 1px 10px #000;
+	font-family: Open Sans Condensed;
+	background-size: 100%;
+	background-position: 0px -67px;
+	cursor: pointer;
+	position: relative;
+
+}
+
+.astro{
+background: url(http://img.auctiva.com/imgdata/9/4/0/2/0/6/webimg/715597033_o.jpg) no-repeat;
+	max-width: 100%;
+	height:260px;
+	width:459px;
+	padding-top:0px;
+	margin-left: 7px;
+	margin-top: 1%;
+	display: inline-block;
+	z-index: 0;
+	font-size: 30px;
+	color: #ffffff;
+	text-shadow: 1px 1px 10px #000;
+	font-family: Open Sans Condensed;
+	background-size: 100%;
+	background-position: 0px;
+	cursor: pointer;
+	position: relative;
+
+}
+.music{
+background: url(http://ak1.picdn.net/shutterstock/videos/2321684/preview/stock-footage-cool-dj-behind-the-turntables-performing-in-a-bar.jpg) no-repeat;
+	max-width: 100%;
+	height:260px;
+	width:459px;
+	padding-top:0px;
+	margin-left: 0%;
+	margin-top: 1%;
+	display: inline-block;
+	z-index: 0;
+	font-size: 30px;
+	color: #ffffff;
+	text-shadow: 1px 1px 10px #000;
+	font-family: Open Sans Condensed;
+	background-size: 102%;
+	cursor: pointer;
+	position: relative;
+
+}
+.semio{
+background: url(http://alabama.vaesite.net/__cache/a1361817175/journal/wp-content/uploads/2013/02/FIGURE-TYPES-PART-01W-625x318.jpg) no-repeat;
+	max-width: 100%;
+	height:260px;
+	width:459px;
+	padding-top:0px;
+	margin-left: 7px;
+	margin-top: 1%;
+	display: inline-block;
+	z-index: 0;
+	font-size: 30px;
+	color: #ffffff;
+	text-shadow: 1px 1px 10px #000;
+	font-family: Open Sans Condensed;
+	background-size: 112%;
+	background-position: -27px 0px;
+	cursor: pointer;
+	position: relative;
+
+}
+.bio{
+background: url(http://www.pageresource.com/wallpapers/wallpaper/biology-dna_201125.jpg) no-repeat;
+	max-width: 100%;
+	height:260px;
+	width:459px;
+	padding-top:0px;
+	margin-left: 0%;
+	margin-top: 1%;
+	display: inline-block;
+	z-index: 0;
+	font-size: 30px;
+	color: #ffffff;
+	text-shadow: 1px 1px 10px #000;
+	font-family: Open Sans Condensed;
+	background-size: 100%;
+	position: relative;
+	top: -30px;
+	cursor: pointer;
+
+}
+.money{
+background: url(http://s4.goodfon.su/wallpaper/previews-middle/404786.jpg) no-repeat;
+	max-width: 100%;
+	height:260px;
+	width:459px;
+	padding-top:0px;
+	margin-left: 7px;
+	margin-top: 1%;
+	display: inline-block;
+	z-index: 0;
+	font-size: 30px;
+	color: #ffffff;
+	text-shadow: 1px 1px 10px #000;
+	font-family: Open Sans Condensed;
+	background-size: 100%;
+	cursor: pointer;
+	position: relative;
+
+}
+.art{
+	background: url(http://wvs.topleftpixel.com/photos/2009/04/brendan-flanagan_blogto_artists_02.jpg) no-repeat;
+	max-width: 100%;
+	height:260px;
+	width:934px;
+	padding-top:1%;
+	margin-left: 0px;
+	margin-top: 1%;
+	display: inline-block;
+	z-index: 0;
+	font-size: 30px;
+	color: #ffffff;
+	text-shadow: 1px 1px 10px #000;
+	font-family: Open Sans Condensed;
+	background-size: 100%;
+	background-position: 0px;
+	position: relative;
+	top:-27px;
+	cursor: pointer;
+
+}
+.olo {
+	position: relative;
+}
+.boxy{
+	border: solid 2px;
+	color: #ffffff;
+	text-shadow: 1px 1px 10px #000;
+	font-size: 20px;
+	position: absolute;
+	top:140px;
+	display:none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 23px;
+	left:0;
+	right:0;
+
+
+}
+
+
+
+
+
+.ologies{
+	margin: 0 auto;
+	text-align: center;
+	background-color: white;
+}
+
+.foot{
+	margin-left: 0 auto;
+	background-color:#E0E0E0;
+	width:auto;
+	height:100px;
+	text-align: center;
+	padding-left:0;
+	position: relative;
+	
+}
+
+.botnav{
+	list-style: none;
+
+}
+.botnav li{
+	display:inline;
+	color: #FCFCFC;
+	font-family: Open Sans Condensed;
+	font-size: 20px;
+	padding:0 25px;
+	text-shadow: 1px 1px 10px #000;
+	/*word-wrap:break-word;*/
+	position: relative;
+	right: 0%;
+	text-align: center;
+	cursor: pointer;
+}
+.copyright{
+	font-family: Open Sans Condensed;
+	color: #959595;
+	font-size: 14px;
+	text-align: center;
+	line-height: 50px;
+
+}
+.botsocial{
+	list-style: none;
+}
+.botsocial li {
+	display:inline;
+	color:  #FCFCFC;
+	text-shadow: 1px 1px 10px #000;
+	font-family: Open Sans Condensed;
+	cursor: pointer;
+
+}
+/*media query*/
+@media screen and (max-width:928px){
+	.sunset{
+		margin-left: 20%;
+	}
+	.mask{
+		margin-left: 20%;
+
+	}
+	.spaceman{
+		margin-left: 20%;
+	}
+	.forsale{
+
+	}
+	.myth{
+		margin-left: 0px;
+
+	}
+	.zoo{
+
+	}
+	.astro{
+		margin-left: 0px;
+
+	}
+	.music{
+
+	}
+	.semio{
+		margin-left: 0px;
+
+	}
+	.bio{
+	top:0px;	
+	}
+	.money{
+		margin-left: 0px;
+
+	}
+	.art{
+		top:0px;
+		width:458px;
+	}
+	.foot{
+		height:112px;
+	}
+}
+
+
+@media screen and (max-width:479px) {
+  /* Target landscape smartphones, portrait tablets, narrow desktops
+
+  */
+  .nav li {
+  	padding: 0 46px;
+  }
+  .social li {
+  	float:left;
+  }
+.botnav li {
+	padding:0 20px;
+}
+.foot{
+	height: 161px;
+}
+.copyright{
+	line-height: 61px;
+}
+.sunset{
+margin-left:0%;
+}
+.mask{
+	margin-left: 0px;
+
+}
+.spaceman{
+margin-left: 0%;
+}
+
+.forsale{
+	;
+	margin-left: 0%;
+}
+.myth{
+	margin-left: 0%;
+	background-size: 132%
+}
+.zoo{
+	margin-left: 0%;
+
+}
+.astro{
+	margin-left: 0%;
+}
+.music{
+	;
+	margin-left: 0px;
+	background-size: 117%;
+}
+.semio{
+	margin-left: 0px;
+	position: relative;
+	background-size: 127%;
+}
+.bio{
+	top:0px;
+	
+}
+.money{
+margin-left: 0px;
+position:relative;
+/*top: -30px;*/
+}
+.art{
+margin-left: 0%;
+position:relative;
+top:-9px;
+}
+.ologies{
+	/*height:2356px;*/
+}
+}
+
+@media screen and (max-width:479px) {
+  /* Target portrait smartphones */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

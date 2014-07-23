@@ -1,0 +1,182 @@
+/*.forsale {
+	background: url(http://cdn6.beekman1802.com/wp-content/uploads/2012/02/4031379-hand-painted-for-sale-sign-on-old-wood-planks.jpg) no-repeat;
+	max-width: 100%;
+	height:260px;
+	width:459px;
+	padding-top:0px;
+	margin-left: 0%;
+	margin-top: 0px;
+	display: inline-block;
+	z-index: 0;
+	font-size: 30px;
+	color: #ffffff;
+	text-shadow: 1px 1px 10px #000;
+	font-family: Open Sans Condensed;
+	background-size: 100%;
+	cursor: pointer;
+}
+.myth{
+	background: url(http://content.artofmanliness.com/uploads//2012/08/gods.jpg) no-repeat;
+	max-width: 100%;
+	height:260px;
+	width:459px;
+	padding-top:0px;
+	margin-left: 7px;
+	margin-top: 1%;
+	display: inline-block;
+	z-index: 0;
+	font-size: 30px;
+	color: #ffffff;
+	text-shadow: 1px 1px 10px #000;
+	font-family: Open Sans Condensed;
+	background-size: 115%;
+	background-position: -7px 0px;
+	cursor: pointer;
+
+}
+.zoo{
+background: url(http://data3.whicdn.com/images/4981849/large.jpg) no-repeat;
+	max-width: 100%;
+	height:260px;
+	width:459px;
+	padding-top:0px;
+	margin-left: 0%;
+	margin-top: 1%;
+	display: inline-block;
+	z-index: 0;
+	font-size: 30px;
+	color: #ffffff;
+	text-shadow: 1px 1px 10px #000;
+	font-family: Open Sans Condensed;
+	background-size: 100%;
+	background-position: 0px -67px;
+	cursor: pointer;
+
+}
+
+.astro{
+background: url(http://img.auctiva.com/imgdata/9/4/0/2/0/6/webimg/715597033_o.jpg) no-repeat;
+	max-width: 100%;
+	height:260px;
+	width:459px;
+	padding-top:0px;
+	margin-left: 7px;
+	margin-top: 1%;
+	display: inline-block;
+	z-index: 0;
+	font-size: 30px;
+	color: #ffffff;
+	text-shadow: 1px 1px 10px #000;
+	font-family: Open Sans Condensed;
+	background-size: 100%;
+	background-position: 0px;
+	cursor: pointer;
+
+}
+.music{
+background: url(http://ak1.picdn.net/shutterstock/videos/2321684/preview/stock-footage-cool-dj-behind-the-turntables-performing-in-a-bar.jpg) no-repeat;
+	max-width: 100%;
+	height:260px;
+	width:459px;
+	padding-top:0px;
+	margin-left: 0%;
+	margin-top: 1%;
+	display: inline-block;
+	z-index: 0;
+	font-size: 30px;
+	color: #ffffff;
+	text-shadow: 1px 1px 10px #000;
+	font-family: Open Sans Condensed;
+	background-size: 102%;
+	cursor: pointer;
+	position: relative;
+
+}
+.semio{
+background: url(http://alabama.vaesite.net/__cache/a1361817175/journal/wp-content/uploads/2013/02/FIGURE-TYPES-PART-01W-625x318.jpg) no-repeat;
+	max-width: 100%;
+	height:260px;
+	width:459px;
+	padding-top:0px;
+	margin-left: 7px;
+	margin-top: 1%;
+	display: inline-block;
+	z-index: 0;
+	font-size: 30px;
+	color: #ffffff;
+	text-shadow: 1px 1px 10px #000;
+	font-family: Open Sans Condensed;
+	background-size: 112%;
+	background-position: -27px 0px;
+	cursor: pointer;
+	position: relative;
+
+}
+.bio{
+background: url(http://www.pageresource.com/wallpapers/wallpaper/biology-dna_201125.jpg) no-repeat;
+	max-width: 100%;
+	height:260px;
+	width:459px;
+	padding-top:0px;
+	margin-left: 0%;
+	margin-top: 1%;
+	display: inline-block;
+	z-index: 0;
+	font-size: 30px;
+	color: #ffffff;
+	text-shadow: 1px 1px 10px #000;
+	font-family: Open Sans Condensed;
+	background-size: 100%;
+	position: relative;
+	top: -30px;
+	cursor: pointer;
+
+}
+.money{
+background: url(http://s4.goodfon.su/wallpaper/previews-middle/404786.jpg) no-repeat;
+	max-width: 100%;
+	height:260px;
+	width:459px;
+	padding-top:0px;
+	margin-left: 7px;
+	margin-top: 1%;
+	display: inline-block;
+	z-index: 0;
+	font-size: 30px;
+	color: #ffffff;
+	text-shadow: 1px 1px 10px #000;
+	font-family: Open Sans Condensed;
+	background-size: 100%;
+	cursor: pointer;
+
+}
+.art{
+	background: url(http://wvs.topleftpixel.com/photos/2009/04/brendan-flanagan_blogto_artists_02.jpg) no-repeat;
+	max-width: 100%;
+	height:260px;
+	width:934px;
+	padding-top:1%;
+	margin-left: 0px;
+	margin-top: 1%;
+	display: inline-block;
+	z-index: 0;
+	font-size: 30px;
+	color: #ffffff;
+	text-shadow: 1px 1px 10px #000;
+	font-family: Open Sans Condensed;
+	background-size: 100%;
+	background-position: 0px;
+	position: relative;
+	top:-27px;
+	cursor: pointer;
+
+}
+.boxy{
+	border: solid 5px;
+	color: #ffffff;
+	text-shadow: 1px 1px 10px #000;
+	font-size: 16px;
+	display:inline-block;
+
+}*/
+
